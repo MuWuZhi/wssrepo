@@ -1,0 +1,45 @@
+<view>
+  <view class="userInfo">
+    <view class="avatar">
+      <open-data type="userAvatarUrl" class='photo' lang="en"></open-data>
+    </view>
+    <view class="nick">
+      <open-data type="userNickName" class="nickName"></open-data>
+      <view class="money">积分 0 | 余额 ￥0.00</view>
+    </view>
+  </view>
+</view>
+
+<view class="menu">
+  <view class="list">
+  <text class="fa fa-credit-card" id="parse"></text>
+  <text style="position:absolute;left:11vw;">钱包</text>
+  <text class="fa fa-angle-right" id="more"></text>
+  </view>
+</view>
+
+<view class="menu">
+  <view class="list">
+  <text class="fa fa-id-card" id="info"></text>
+  <text style="position:absolute;left:11vw;">个人资料</text>
+  <text class="fa fa-angle-right" id="more"></text>
+  </view>
+  <view class="list">
+  <text class="fa fa-paper-plane-o" id="publish"></text>
+  <text style="position:absolute;left:11vw;">我的发布</text>
+  <text class="fa fa-angle-right" id="more"></text>
+  </view>
+  <view class="list">
+  <text class="fa fa-check-square-o" id="recieve"></text>
+  <text style="position:absolute;left:11vw;">我的接收</text>
+  <text class="fa fa-angle-right" id="more"></text>
+  </view>
+</view>
+
+<view class="menu">
+  <view class="list">
+  <text class="fa fa-gear" id="set"></text>
+  <text style="position:absolute;left:11vw;">设置</text>
+  <text class="fa fa-angle-right" id="more"></text>
+  </view>
+</view>

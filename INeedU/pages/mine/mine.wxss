@@ -1,0 +1,110 @@
+page{
+  background-color: #f7f7f7;
+}
+
+image{
+  width:96vw;
+  height:15vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  background-color: #f9b15f;
+  height:16vh;
+}
+
+.avatar{
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.photo{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block; 
+  overflow: hidden; 
+  margin-left: 5%;
+ 
+}
+
+.nick{
+  font-weight: lighter;
+  font-size: 22px;
+  color:white;
+  margin-left: 7vw;
+  margin-top: 4vh;
+}
+
+.money{
+  font-size: 14px;
+  color:#f1efef;
+  margin-top: 1vh;
+}
+
+.menu{
+  background-color: white;
+  margin-top: 4%;
+}
+
+.list{
+  width:100%;
+  margin: 0 0;
+  border-bottom: 0.1vw solid #f2f2f2;
+  height:10vw;
+  line-height: 10vw;
+  font-size: 4vw;
+  display: flex;
+  flex-direction: row;
+  color:	#111111;
+
+}
+
+#info{
+  font-size:17px;
+  padding-left: 3vw;
+  margin-top: 11px;
+  color: #9ac43f;
+}
+
+#parse{
+   font-size:17px;
+  padding-left: 3vw;
+  margin-top: 11px;
+  color: #DA70D6;
+}
+
+#publish{
+ font-size:17px;
+  padding-left: 3vw;
+  margin-top: 11px;
+  color: #ff7560;
+}
+
+#recieve{
+ font-size:18px;
+  padding-left: 3vw;
+  margin-top: 11px;
+  color: #32c9d2;
+}
+
+#set{
+ font-size:19px;
+  padding-left: 3vw;
+  margin-top: 11px;
+  color: #FF6347;
+}
+
+#more{
+  font-size: 18px;
+  color:#7a7a7a;
+ position: fixed;
+ right:5vw;
+ margin-top: 10px;
+}

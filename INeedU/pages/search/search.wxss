@@ -1,0 +1,24 @@
+/* pages/search/search.wxss */
+.top{
+  background-color: #f9b15f;
+  height:6vh;
+}
+.out{
+display: flex;
+  flex-direction: row;
+}
+.search{
+  border: 1px solid #f9b15f;
+  border-radius: 10px;
+  height:5vh;
+  width:80%;
+  background-color: white;
+  text-indent:5px;
+  margin-left:5vw;
+  
+}
+
+.holder{
+  font-size:14px;
+  color: #cccbcb;
+}

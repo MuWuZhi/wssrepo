@@ -1,0 +1,141 @@
+/* pages/home/home.wxss */
+page{
+  background-color: #f7f7f7;
+}
+.header{
+  background-color: #f9b15f;
+  display: flex;
+  flex-direction: row;
+  height:6vh;
+}
+
+.search{
+  font-size: 17px;
+  color:#FFFAF0;
+  font-weight: lighter;
+  margin-left: 5vw;
+  width:40%;
+}
+
+.publish{
+  font-size: 17px;
+  color:#FFFAF0;
+  font-weight: lighter;
+  margin-left: 35vw;
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: row;
+}
+
+.body{
+  background-color:white;
+  margin-top: 2vh;
+}
+
+.avatar{
+  height:120rpx;
+  width:120rpx;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+.nickname{
+  font-size: 16px;
+  margin-left:2vw;
+  margin-top:2.5vh;
+  font-weight: bold;
+}
+.time{
+  font-size:12px;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  font-weight: lighter;
+  color: #3f3f3e
+}
+
+.recieve{
+  border:1px solid #f9b15f;
+  height:60rpx;
+  width:120rpx;
+  border-radius: 10rpx;
+  line-height: 60rpx;
+  text-align: center;
+ margin-left:35vw;
+ margin-top:3vh;
+  font-size: 17px;
+  font-weight: lighter;
+  color:#f9b15f;
+}
+
+.task{
+  margin-left: 5vw;
+  padding-bottom:2vh;
+}
+
+.title{
+  font-size:17px;
+
+}
+.content{
+  width:92vw;
+  font-size: 16px;
+  line-height: 24px;
+  color:#1b1b1b;
+  font-weight: lighter;
+}
+
+.enclosure3{
+  height:15vh;
+  width:29vw;
+  margin-right:1vw;
+  margin-top:1vh;
+}
+
+.enclosure2{
+  height:20vh;
+  width:44vw;
+  margin-right:1vw;
+  margin-top:1vh;
+}
+
+.enclosure1{
+  height:30vh;
+  width:90vw;
+  margin-top:1vh;
+}
+
+.location{
+  font-size: 14px;
+  color:#807f7f;
+  margin-top:0.5vh;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.location view{
+  color:#4876FF;
+  font-size: 10px;
+  border:1px solid #4876FF;
+  
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  border-radius: 6rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin-right: 15rpx;
+  margin-top: 10rpx;
+}
+
+.money{
+  font-size: 16px;
+  color:#ff6347;
+  margin-left:67vw;
+
+}

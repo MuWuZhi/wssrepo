@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/publish/publish",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/taskDetail/taskDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f9b15f",
+    "navigationBarTitleText": "INeedU",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#f9b15f",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/homepagegrey.png",
+        "selectedIconPath": "images/homepage.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "任务",
+        "iconPath": "images/createtaskgrey.png",
+        "selectedIconPath": "images/createtask.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/peoplegrey.png",
+        "selectedIconPath": "images/people.png"
+      }
+    ]
+  }
+}

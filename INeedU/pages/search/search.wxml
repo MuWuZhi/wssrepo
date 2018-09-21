@@ -1,0 +1,11 @@
+<view class="top">
+<view class="out">
+<view class="search">
+<input style="margin-left:20px;margin-top:4px;" placeholder='请输入关键词' placeholder-class='holder' auto-focus='true'></input>
+</view>
+<view>
+<text style="color:white;font-size:17px;margin-left:4px;margin-top:4px;">取消</text>
+
+</view>
+</view>
+</view>

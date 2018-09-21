@@ -1,0 +1,25 @@
+<view>
+<view class="userInfo">
+    <view>
+      <image src="/images/app.png" class="avatar" />
+    </view>
+    <view>
+      <view class="nickname">木无枝</view>
+      <view class="time">09月17日17:56</view>
+    </view>
+    <view class="money">酬金 ￥2.00</view>
+  </view>
+</view>
+
+<view class="task">
+    <view class="title">取快递</view>
+    <view class="content">北区校门口天天快递,单号15643320,哪位小姐姐顺路帮我取一下？非常感谢！</view>
+     <view>
+      <image class="enclosure3" src="/images/1_07.png" />
+      <image src="/images/1_07.png" class="enclosure3" />
+      <image src="/images/1_07.png" class="enclosure3" />
+    </view> 
+    
+  </view>
+
+  <view style="border-bottom:0.1px solid #e1e1e1;width:96%;margin-left:1%;"></view>

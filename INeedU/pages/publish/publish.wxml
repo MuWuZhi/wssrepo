@@ -1,0 +1,72 @@
+<view class="do">
+  <view class="cancel">取消</view>
+  <button class="publish">
+    <text>发布</text>
+  </button>
+</view>
+
+<view class="pubform">
+  <form bindsubmit="formSubmit">
+
+    <view class="section">
+      <view class="section__title">任务类型</view>
+      <view class="type">
+        <view wx:for="{{types}}" style="width:20%;" wx:key='unique' class="{{item.select?'typeselect':'typeunselect'}}" data-id="{{item.id}}" bindtap="selectType">{{item.name}}</view>
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="section__title">任务标题</view>
+      <input name="name" class="name" />
+    </view>
+
+    <view class="section_area">
+      <view class="section__title">任务详情</view>
+      <textarea class="desc" name="desc" />
+    </view>
+
+    <view class="section">
+      <view class="section__title">截止时间</view>
+      <picker mode="multiSelector" value="{{dateTime1}}" bindchange="changeDateTime1" bindcolumnchange="changeDateTimeColumn1" range="{{dateTimeArray1}}">
+        <view class="time">
+          <text class="timetxt">
+ {{dateTimeArray1[0][dateTime1[0]]}}-{{dateTimeArray1[1][dateTime1[1]]}}-{{dateTimeArray1[2][dateTime1[2]]}} {{dateTimeArray1[3][dateTime1[3]]}}:{{dateTimeArray1[4][dateTime1[4]]}}
+ </text>
+
+        </view>
+      </picker>
+    </view>
+
+    <view class="section">
+      <view class="section__title">任务地点</view>
+      <input name="place" class="name" />
+    </view>
+
+    <view class="section">
+      <view class="section__title">联系方式</view>
+      <input name="tel" class="name" />
+    </view>
+
+    <view class="section">
+      <view class="section__title">所需人数</view>
+      <view class="people">
+      <image src="/images/minus.png" bindtap="minus"/><input name="peoplenum" placeholder-class="input-holder" class="peoplenum" value="{{peoplenum}}" bindinput='getPeopleNum' /><image src="/images/plus.png" bindtap="plus"/></view>
+    </view>
+
+    <view class="section">
+      <view class="section__title">任务酎金(元/人)</view>
+      <input name="value" class="name" />
+    </view>
+
+    <view class="picture">
+      <view class="section__imgtitle">附件</view>
+      <view class="image" bindtap="chooseImage">
+        
+        <image src="{{tempFilePaths }}" mode="aspecFill" style=" height:15vh;width:30vw"></image>
+
+      </view>
+    </view>
+
+  </form>
+
+</view>
